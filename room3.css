@@ -1,0 +1,57 @@
+html {
+    font-size: 16px;
+}
+body {
+    background-image: url("./src/KakaoTalk_20220606_004046370.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 19% auto;
+}
+a {
+    width: 35%;
+    box-shadow: 2px 2px darkgray;
+    margin: 4px auto;
+}
+img {
+    width: 100%;
+}
+.exp {
+    display: none;
+    padding: 3rem;
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: darkgray;
+}
+.exp h2 {
+    text-align: center;
+    margin: 2rem auto;
+}
+.exp .x {
+    float: right;
+}
+#back {
+    color: darkgray;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 90%;
+    box-shadow: none;
+    text-decoration: none;
+}
+#back p {
+    margin: 0;
+}
+#back:hover {
+    color: black;
+}

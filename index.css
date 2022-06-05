@@ -1,0 +1,111 @@
+/*universal*/
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    background-color: darkgray;
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+a:link {
+    text-decoration: none;
+}
+/*header*/
+header nav {
+    float: right;
+}
+header li {
+    display: inline;
+    margin: 1em;
+    text-decoration: none;
+    color: black;
+}
+/*home*/
+#home {
+    background-image: url("./src/688573846-huge.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70rem;
+}
+#home h1 {
+    padding-top: 30rem;
+    width: 100%;
+    text-align: center;
+}
+#home p {
+    width: 100%;
+    text-align: center;
+}
+#home a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid darkgray;
+    width: 6rem;
+    height: 3rem;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 2px darkgray;
+}
+#home :active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    box-shadow: none;
+}
+/*exhibitions*/
+#exhibitions {
+    background-image: url("./src/688573846-huge.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70rem;
+}
+#exhibitions h1 {
+    padding-top: 10rem;
+    width: 100%;
+    text-align: center;
+}
+#exhibitions .exhibitions-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    height: 60%
+}
+#exhibitions .box {
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    box-shadow: 2px 2px darkgray;
+    text-decoration: none;
+    color: black;
+}
+.exhibitions-box :active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    box-shadow: none;
+}
+#exhibitions #double-slit {
+    background-image: url("./src/doubleslit.png");
+    background-size: cover;
+}
+#exhibitions #pl {
+    background-image: url("./src/PLroom.png");
+    background-size: cover;
+}
+#exhibitions #balmer {
+    background-image: url("./src/balmer.png");
+    background-size: cover;
+}
+#about h1 {
+    margin: 1em 10%;
+}
+#about p {
+    margin: 1em 10%;
+}
