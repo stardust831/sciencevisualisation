@@ -84,6 +84,7 @@ header li {
     box-shadow: 2px 2px darkgray;
     text-decoration: none;
     color: black;
+    background-position: center;
 }
 .exhibitions-box :active {
     position: relative;
